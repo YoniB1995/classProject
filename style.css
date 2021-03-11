@@ -1,9 +1,12 @@
 body {
-  background-image: url(car_background.jpg);
+   background: linear-gradient(#e66465, #9198e5);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: black;
 }
 .container {
   display: flex;
@@ -12,5 +15,5 @@ body {
   align-items: center;
 }
 table tr td {
-  border: solid 1px white;
+  border: solid 1px black;
 }
